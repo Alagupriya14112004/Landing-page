@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-image: url(https://s3.envato.com/files/441057097/3-02093.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-attachment: fixed;
+      }
+      
+      p {
+        font-size: 25px;
+        color: rgb(7, 7, 54);
+      }
+      header {
+        background-color: #1bb30e;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      nav ul li {
+        display: inline;
+        margin: 0 15px;
+      }
+      
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      .hero {
+        background-color: #f4f4f4;
+        padding: 100px 0;
+        text-align: center;
+      }
+      
+      .hero h1 {
+        font-size: 5em;
+      }
+      
+      .cta-btn {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+      @media (max-width: 768px) {
+        nav ul {
+          display: block;
+        }
+      }
+      section {
+        padding: 50px;
+      }
+      
+      .feature-box {
+        display: inline-block;
+        width: 45%;
+        margin: 20px;
+      }
+      .cta-btn:hover {
+        background-color: #218838;
+      }
+      .quote {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Ensure the container has a height */
+    font-size: 25px;
+    color: rgb(7, 7, 54);
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    gap: 50px; /* Adds space between items */
+}
+
+.col img {
+    width: 100%; /* Ensures the image takes full width of the item */
+    height: 500px; /* Keeps the aspect ratio intact */
+}
+.image-container {
+      text-align: center;
+    }
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+h1 { 
+  font-size: 40px;
+
+}
+    </style>
+</head>
+<body>
+    <nav  id="home" class="navbar">
+       <center> <h1 class="logo">Organic Product</h1></center>
+        <strong>
+       <center> <ul  class="nav-links">
+            <a style="padding:10px; color:rgb(212, 158, 19)" href="#home">HOME</a>
+            <a style="padding:10px; color:rgba(212, 158, 19)" href="#prod">PRODUCTS</a>
+            <a style="padding:10px; color:rgb(212, 158, 19)" href="#about">ABOUT</a>
+            <a style="padding:10px; color:rgb(212, 158, 19)" href="#contact">CONTACT</a>
+        </ul></center>
+    </strong>
+        
+    </nav>
+
+    <header>
+       <div  class="header-content">
+        <h1>Natural skincare products</h1>
+        <div class="line"></div>
+        <h2 >The Soothing Touch of Nature: Explore skincare products </h2>
+       </div>
+    </header>
+    <section>
+        <div class="title">
+            <center><h1>Our products </h1></center>
+            <div class="line"></div>
+        </div>
+      <center>
+        <div id="prod" class="row">
+            <div class="col">
+                <img src=https://m.media-amazon.com/images/I/718UODhJVjL.jpg height="200" width="200">
+            <h3>Handmade Soap</h3>
+                <p> Handmade soaps are crafted with love using natural, skin-friendly ingredients like organic oils, herbs, 
+                    and essential oils. Free from harsh chemicals, 
+                    they offer a gentle and luxurious experience suitable for all skin types. 
+                </p>
+            </div>
+            <div class="col">
+                <img src=https://journeytoglow.com/wp-content/uploads/2023/10/Rosacea-Face-Oils-1080x675.jpg height="200" width="200">
+                <h3>Natural face oil</h3>
+                <p>Natural face oils are packed with nourishing ingredients like botanical extracts, vitamins, 
+                    and antioxidants that hydrate and rejuvenate your skin. 
+                </p>
+            </div>
+ 
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src=https://m.media-amazon.com/images/I/71QtHg2R-XL._UF1000,1000_QL80_.jpg height="200" width="200">
+                <h3>Beauty cream</h3>
+                <p>
+                    Natural beauty creams are enriched with plant-based ingredients, essential vitamins, 
+                    and antioxidants to nourish and rejuvenate your skin. Free from harmful chemicals, 
+                    these creams provide deep hydration, even out skin tone, and enhance your natural glow.
+                </p>
+            </div>
+            <div class="col">
+                <img src=https://www.budsandberries.in/cdn/shop/products/macadamia-and-vanilla-oil-nourish-body-lotion-for-normal-to-dry-skin-240-ml-budsandberries-3.jpg?v=1733139535 height="500" width="100%">
+                <h3>Body lotion</h3>
+                <p>Natural body lotions are formulated with nourishing ingredients like shea butter, 
+                    coconut oil, and aloe vera to deeply hydrate and soften your skin. Free from harsh chemicals,
+                     they provide long-lasting moisture,
+                     improve skin elasticity, and leave your skin feeling smooth and refreshed. 
+                </p>
+            </div>
+ 
+        </div>
+    </center>
+    </section>
+    <section id="Homemade-Soap" class="quote">
+        <div class="quote-content">
+            <center><h1 >Key Benefits</h1></center>
+          <ol>
+            <li>Gentle on Skin</li>
+            <ul style="list-style-type: disc;">
+                <li>Free from harsh chemicals and artificial additives.</li>
+            </ul>
+
+            <li>Eco-Friendly</li>
+            <ul style="list-style-type: disc;">
+                <li>Made with sustainably sourced, natural ingredients.</li>
+            </ul>
+          
+            <li>Dermatologist Approved</li>
+            <ul style="list-style-type: disc;">
+                <li>Safe and suitable for all skin types.</li>
+            </ul>
+          
+            <li>Rich in Nutrients</li>
+            <ul style="list-style-type: disc;">
+                <li>Packed with vitamins and antioxidants for glowing skin.</li>
+            </ul>
+          </ol>
+        </div>
+        <div class="image-container">
+          <img src ="https://www.nutriglowcosmetics.com/wp-content/uploads/2023/08/Benefits-of-Using-Natural-Skincare-Products.jpg" height="500px" width="500px">
+        </div>
+    </section>
+   <section id="about" class="aboutus">
+        <div class="rows">
+            <div class="cols">
+                <center><h1 style="color:#070707">ABOUT US</h1></center>
+                <p>
+                    Experience the magic of nature with our natural skincare products, crafted to 
+                    bring out the best in your skin without the use of harsh chemicals or artificial additives. 
+                    Our eco-friendly and cruelty-free range is rich in vitamins, antioxidants, and 
+                    nutrients that nourish your skin while being gentle enough for all skin types, even the most sensitive.
+
+                    Each product is thoughtfully made using sustainably sourced ingredients, ensuring that your skincare routine 
+                    not only benefits you but also supports the environment. With options tailored to your 
+                    unique needs be it hydration, anti-aging, or a radiant glow our products deliver visible results you can trust.
+
+                    Choose natural skincare that aligns with your values and leaves your skin glowing with health and confidence.
+                     "Glow Naturally, Shine Beautifully" with us today!
+                    Our mission is simple: to provide wholesome, high-quality skincare products that care for your skin and the planet.
+                    
+                </p>  
+                    
+               
+                    
+                  <p style="padding-top:20px"> By choosing Green Haven, you are not only making a conscious choice for your health and well-being but also contributing to the global effort to protect our environment. Together, we can make a difference, one eco-friendly product at a time.</p> 
+                    
+                  <p style="padding-top:15px"> Visit Us Today!</p> 
+                    
+                  <p style="padding-top:15px">  Explore our collection and discover solution made from nourishing ingredients, offering eco-friendly benefits while allowing for creativity and personal expression in every bar.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="contact" class="footer-content">
+        <center>
+          <p>&copy; 2024 Nature Picks. All rights reserved.</p>
+         
+          <div class="social-media">
+            <a  style="padding:10px;color:rgb(32, 28, 28)"href="https://facebook.com" target="_blank">Facebook</a>
+            <a style="padding:10px;color:rgb(14, 13, 13)" href="https://twitter.com" target="_blank">Twitter</a>
+            <a style="padding:10px;color:rgb(14, 12, 12)" href="https://instagram.com" target="_blank">Instagram</a>
+            <a style="padding:10px;color:rgb(19, 18, 18)" href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <p>call us:<a href="tel:+1234567890">+1234567890</a></p>
+          </div>
+        </center>
+        </div>
+      </footer>
+      
+   
+</body>
+</html>
